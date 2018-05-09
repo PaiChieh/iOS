@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
 extension ViewController:UnityAdsDelegate {
     func unityAdsReady(_ placementId: String) {
-        UnityAds.show(self, placementId: "video")
+//        UnityAds.show(self, placementId: "video")
 //        UnityAds.show(self, placementId: "rewardedVideo")
     }
     
